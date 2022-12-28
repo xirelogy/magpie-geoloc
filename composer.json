@@ -1,0 +1,27 @@
+{
+  "name": "xirelogy/magpie-geoloc",
+  "description": "Geo-location basic library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "JingXiang Tou",
+      "email": "jx@tou.st"
+    }
+  ],
+  "require": {
+    "xirelogy/magpie-core": "^0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MagpieLib\\GeoLoc\\": "src"
+    }
+  },
+  "extra": {
+    "magpie": {
+      "classes": [
+        "MagpieLib\\GeoLoc\\GeoSetup"
+      ]
+    }
+  }
+}
